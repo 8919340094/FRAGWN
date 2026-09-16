@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FRAGWN — Find trusted local professionals. Find. Book. Done.">
+  <title>FRAGWN — Find. Book. Done.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">FRAGWN</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#professionals">Professionals</a>
+      <a href="#trust">Trust</a>
+      <a href="#request">Request Service</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR LOCAL SERVICE MARKETPLACE</p>
+        <h1>Find trusted people.<br><span>Get the job done.</span></h1>
+        <p class="hero-text">
+          Find verified local professionals for repairs, home services and everyday needs.
+          Compare profiles, check reviews and request a service with confidence.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#professionals">Find a Professional</a>
+          <a class="btn secondary" href="#request">Request a Service</a>
+        </div>
+        <p class="mini-note">Find. Book. Done.</p>
+      </div>
+      <div class="hero-card">
+        <div class="search-box">
+          <span>🔎</span>
+          <div>
+            <strong>What do you need?</strong>
+            <small>Electrician • Plumber • AC Repair...</small>
+          </div>
+        </div>
+        <div class="trust-row">
+          <div><b>🛡️</b><span>Verified</span></div>
+          <div><b>⭐</b><span>Reviews</span></div>
+          <div><b>📍</b><span>Nearby</span></div>
+          <div><b>💬</b><span>Support</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">SERVICES</p>
+        <h2>What do you need help with?</h2>
+        <p>Start with a category and we'll help you connect with the right professional.</p>
+      </div>
+      <div class="service-grid">
+        <button class="service-card" data-service="Electrician"><span>🔧</span><strong>Electrician</strong><small>Wiring, fans, switches & more</small></button>
+        <button class="service-card" data-service="Plumber"><span>🚰</span><strong>Plumber</strong><small>Leaks, pipes, taps & more</small></button>
+        <button class="service-card" data-service="AC Repair"><span>❄️</span><strong>AC Repair</strong><small>Service, repair & installation</small></button>
+        <button class="service-card" data-service="Mobile Repair"><span>📱</span><strong>Mobile Repair</strong><small>Screen, battery & software</small></button>
+        <button class="service-card" data-service="Laptop Repair"><span>💻</span><strong>Laptop Repair</strong><small>Hardware & software support</small></button>
+        <button class="service-card" data-service="Cleaning"><span>🧹</span><strong>Cleaning</strong><small>Home & office cleaning</small></button>
+        <button class="service-card" data-service="Photographer"><span>📸</span><strong>Photographer</strong><small>Events, portraits & more</small></button>
+        <button class="service-card" data-service="Tutor"><span>👨‍🏫</span><strong>Tutor</strong><small>School, college & skills</small></button>
+      </div>
+    </section>
+
+    <section class="section alt" id="trust">
+      <div class="section-heading">
+        <p class="eyebrow">THE FRAGWN DIFFERENCE</p>
+        <h2>Trust comes first.</h2>
+        <p>Our MVP is built around the question customers care about most: <b>“Can I trust them?”</b></p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature"><div>🛡️</div><h3>Verified Professionals</h3><p>Build confidence with identity, experience and professional checks.</p></article>
+        <article class="feature"><div>⭐</div><h3>Real Reviews</h3><p>See feedback from customers who have actually used the service.</p></article>
+        <article class="feature"><div>📍</div><h3>Local & Nearby</h3><p>Connect with professionals who serve your area.</p></article>
+        <article class="feature"><div>💰</div><h3>Clear Pricing</h3><p>Make it easier to understand expected service costs before booking.</p></article>
+        <article class="feature"><div>🤝</div><h3>Human Support</h3><p>FRAGWN can help coordinate the first bookings while the marketplace grows.</p></article>
+        <article class="feature"><div>📋</div><h3>Professional Profiles</h3><p>Compare experience, services, reviews and completed jobs.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="professionals">
+      <div class="section-heading">
+        <p class="eyebrow">LOCAL PROFESSIONALS</p>
+        <h2>Meet trusted professionals</h2>
+        <p>Sample profiles for the MVP. Replace these with your verified FRAGWN professionals.</p>
+      </div>
+      <div class="professional-grid">
+        <article class="pro-card">
+          <div class="avatar">RE</div>
+          <div class="badge">🛡️ FRAGWN Verified</div>
+          <h3>Rajesh Electricals</h3>
+          <p class="pro-service">🔧 Electrician</p>
+          <div class="rating">★★★★★ <span>4.8</span></div>
+          <p>8 years experience • 127 jobs</p>
+          <p>📍 Rajkot</p>
+          <button class="small-btn request-pro" data-service="Electrician" data-pro="Rajesh Electricals">Request Service</button>
+        </article>
+
+        <article class="pro-card">
+          <div class="avatar">KP</div>
+          <div class="badge">🛡️ FRAGWN Verified</div>
+          <h3>Krishna Plumbing</h3>
+          <p class="pro-service">🚰 Plumber</p>
+          <div class="rating">★★★★★ <span>4.9</span></div>
+          <p>6 years experience • 94 jobs</p>
+          <p>📍 Rajkot</p>
+          <button class="small-btn request-pro" data-service="Plumber" data-pro="Krishna Plumbing">Request Service</button>
+        </article>
+
+        <article class="pro-card">
+          <div class="avatar">CE</div>
+          <div class="badge">🛡️ FRAGWN Verified</div>
+          <h3>Cool Enterprise</h3>
+          <p class="pro-service">❄️ AC Repair</p>
+          <div class="rating">★★★★★ <span>4.7</span></div>
+          <p>7 years experience • 156 jobs</p>
+          <p>📍 Rajkot</p>
+          <button class="small-btn request-pro" data-service="AC Repair" data-pro="Cool Enterprise">Request Service</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section request-section" id="request">
+      <div class="request-wrap">
+        <div>
+          <p class="eyebrow">NEED A SERVICE?</p>
+          <h2>Tell us what you need.</h2>
+          <p>Submit a request. For this free MVP, requests are prepared for manual follow-up by the FRAGWN team.</p>
+          <ul class="check-list">
+            <li>✓ Tell us your service</li>
+            <li>✓ Describe the problem</li>
+            <li>✓ Add your area and preferred time</li>
+            <li>✓ We'll help match you with a professional</li>
+          </ul>
+        </div>
+
+        <form id="serviceForm" class="service-form">
+          <label>Full name<input type="text" id="name" required placeholder="Your name"></label>
+          <label>Phone number<input type="tel" id="phone" required placeholder="+91 XXXXX XXXXX"></label>
+          <label>Service<select id="service" required>
+            <option value="">Select a service</option>
+            <option>Electrician</option>
+            <option>Plumber</option>
+            <option>AC Repair</option>
+            <option>Mobile Repair</option>
+            <option>Laptop Repair</option>
+            <option>Cleaning</option>
+            <option>Photographer</option>
+            <option>Tutor</option>
+            <option>Other</option>
+          </select></label>
+          <label>Area / location<input type="text" id="location" required placeholder="e.g. Rajkot"></label>
+          <label>Describe the problem<textarea id="problem" rows="4" required placeholder="What do you need help with?"></textarea></label>
+          <label>Preferred time<input type="text" id="time" placeholder="e.g. Tomorrow evening"></label>
+          <button class="btn primary full" type="submit">Send Service Request</button>
+          <p id="formMessage" class="form-message"></p>
+          <p class="form-note">MVP demo: this version opens WhatsApp with your request. Add your FRAGWN WhatsApp number in <code>script.js</code>.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section join">
+      <div class="join-card">
+        <div>
+          <p class="eyebrow">ARE YOU A PROFESSIONAL?</p>
+          <h2>Grow your local business with FRAGWN.</h2>
+          <p>Join the early network of professionals. The initial MVP can onboard providers manually.</p>
+        </div>
+        <a class="btn secondary" href="https://forms.google.com/" target="_blank" rel="noopener">Join as a Professional</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <strong>FRAGWN</strong>
+      <span>Find. Book. Done.</span>
+    </div>
+    <p>Connecting local people with trusted professionals.</p>
+    <p class="copyright">© 2026 FRAGWN. MVP version.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
